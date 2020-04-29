@@ -1,1 +1,1 @@
-CREATE TABLE series (id INTEGER PRIMARY KEY ,title TEXT,author_id INTEGER,sub-genre INTEGER)
+CREATE TABLE series (id INTEGER PRIMARY KEY ,title TEXT,author_id INTEGER,sub-genre INTEGER);
