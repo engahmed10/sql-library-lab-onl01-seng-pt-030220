@@ -1,2 +1,2 @@
 CREATE TABLE series (title TEXT)
-CREATE 
+ 
