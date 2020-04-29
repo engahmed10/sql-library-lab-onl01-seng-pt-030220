@@ -3,4 +3,4 @@ CREATE TABLE subgenres (id INTEGER PRIMARY KEY ,name TEXT);
 CREATE TABLE authors (id INTEGER PRIMARY KEY ,name TEXT);
 CREATE TABLE Books (id INTEGER PRIMARY KEY ,title TEXT,year INTEGER,series_id INTEGER);
 CREATE TABLE Characters (id INTEGER PRIMARY KEY ,name TEXT,motto TEXT,species TEXT,author_id INTEGER);
-CREATE TABLE character_books (id INTEGER PRIMARY KEY,)
+CREATE TABLE character_books (id INTEGER PRIMARY KEY,book_id INTEGER)
